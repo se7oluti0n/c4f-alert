@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_card"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Ứng phó với động đất"
+            android:textColor="#5ca028"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_card"
+            android:padding="5dp"
+            android:text="Trước khi xảy ra động đất"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="-     Dự trữ nước uống, đồ ăn đóng hộp, đèn pin, pin, radio, bông băng, thuốc chữa bệnh thông thường, thay đổi khi hết hạn sử dụng;
+-     Không đặt các vật nặng lên giá đỡ cao; không đặt giường ngủ sát cửa kính;
+-      Những vật dụng trong nhà dễ ngã đổ, rơi xuống, nên được gắn chặt vào tường nhà để khi lung lay cũng không rơi xuống đất gây thương tích;
+-      Các đồ đạc nặng như kệ sách, tủ, chén bát…. nên đặt xa khỏi các cửa ra vào, các nơi thường lui tới để khi ngã đổ vẫn không chắn lối ra và nên gắn chặt vào tường nhà;
+-     Những người sống ở chung cư nắm vững lối thoát hiểm;
+-     Theo dõi thông báo và chỉ dẫn của cơ quan phòng chống thiên tai và cứu hộ, cứu nạn." />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_card"
+            android:padding="5dp"
+            android:text="Khi xảy ra động đất"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="-     Nếu động đất xảy ra khi đang ở trong nhà, ngay lập tức chui xuống gầm bàn hay gầm giường để tránh các vật rơi xuống đầu và nếu nhà sập vẫn có không khí để thở. Nếu không có gầm bàn thì chạy đến góc phòng mà đứng, không chạy ra khỏi nhà khi có chấn động do động đất gây ra. Sau khi chấn động ngừng mới rời khỏi phòng, nhà nếu cần;
+-     Khi di chuyển ra khỏi nhà cao tầng không chạy vào thang máy đề phòng mất điện bất ngờ, đồng thời lấy các vật che trên đầu như gối, cặp sách, cặp tài liệu;
+-     Nếu động đất xảy ra khi đang ở ngoài đường thì phải lánh nạn ở những bãi đất trống, chạy tránh xa các tòa nhà cao ốc, tường cao, cây to và đường dây điện để tránh sập đổ;
+-     Nếu động đất xảy ra khi đang ở gần bờ biển thì phải đề phòng sóng thần do động đất xảy ra ở đáy biển;
+-     Sau chấn động đầu tiên thường có thời gian yên tĩnh, sau đó mới có chấn động mới, do đó không nên hoảng sợ. Chấn động mới có thể xảy ra sau vài phút, vài giờ thậm chí sau vài ngày tùy thuộc động đất mạnh hay yếu." />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background_card" >
+
+        <Button
+            android:id="@+id/btNoOK"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/background_card1"
+            android:text="SOS"
+            android:textColor="#ff4000"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/btOk"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/background_card1"
+            android:text="OK"
+            android:textColor="#99cc00"
+            android:textSize="35dp" />
+
+        <RelativeLayout
+            android:id="@+id/ivRelativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btOk"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/tvLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Name"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/tvLocation"
+                android:layout_below="@id/tvLocation"
+                android:layout_margin="5dp"
+                android:text="Location"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tvDes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/tvLocation"
+                android:layout_below="@id/tvUpdate"
+                android:layout_margin="5dp"
+                android:text="Description"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ivWeather"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:id="@+id/btTip"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/background_card1"
+                android:text="TIP"
+                android:textColor="#ffcb05"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/btMyPlan"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/background_card1"
+                android:text="MY TIP"
+                android:textColor="#336666"
+                android:textSize="35dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

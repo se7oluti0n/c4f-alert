@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background_card" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/title_current_weather"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Ha Noi, Viet Nam"
+                    android:textSize="25dp" />
+
+                <LinearLayout
+                    android:id="@+id/layout_border"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/title_current_weather"
+                    android:layout_marginTop="20dp"
+                    android:background="#a5b5bb"
+                    android:orientation="vertical" />
+
+                <TextView
+                    android:id="@+id/update_time"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layout_border"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="Current weather conditions updated 29 min 36 sec ago" />
+
+                <LinearLayout
+                    android:id="@+id/llContent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/update_time"
+                    android:layout_marginTop="10dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/lll"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_weight="1" >
+
+                        <ImageView
+                            android:id="@+id/ivIcon"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:id="@+id/weather"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/ivIcon"
+                            android:layout_centerHorizontal="true"
+                            android:text="text"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/llr"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/tvTemp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:text="35"
+                            android:textColor="#E54328"
+                            android:textSize="50dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@id/tvTemp"
+                            android:text="C"
+                            android:textColor="#E54328"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/tvInfo1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tvTemp"
+                            android:layout_centerHorizontal="true"
+                            android:text="Feels Like"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/tvInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/tvInfo1"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_toRightOf="@id/tvInfo1"
+                            android:text="35"
+                            android:textColor="#E54328"
+                            android:textSize="12sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/llMore"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/llContent"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/tvSunrise"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Sunrise" />
+
+                    <TextView
+                        android:id="@+id/tvSunset"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvSunrise"
+                        android:layout_marginLeft="5dp"
+                        android:text="Sunset" />
+
+                    <ImageView
+                        android:id="@+id/ivSunset"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/tvSunset"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_toRightOf="@id/tvSunset"
+                        android:background="@drawable/image_02" />
+
+                    <ImageView
+                        android:id="@+id/ivSunrise"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tvSun"
+                        android:layout_alignLeft="@id/ivSunset"
+                        android:layout_toLeftOf="@+id/tvSuns"
+                        android:background="@drawable/image_01" />
+
+                    <TextView
+                        android:id="@+id/tvSun"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/ivSunrise"
+                        android:text="12332"
+                        android:textColor="#DD873E" />
+
+                    <TextView
+                        android:id="@+id/tvSuns"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvSun"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/ivSunset"
+                        android:text="12332"
+                        android:textColor="#C04B15" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@id/tvSuns"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <com.c4f.entity.CustomImageViewWind
+                            android:id="@+id/imv_wind"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp" />
+
+                        <TextView
+                            android:id="@+id/tv_wind"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Wfivgh" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvMoon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/llMore"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Moon" />
+
+                <ImageView
+                    android:id="@+id/ivMoon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/llMore"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@id/tvMoon"
+                    android:background="@drawable/image09" />
+
+                <TextView
+                    android:id="@+id/tvMoonAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/llMore"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/ivMoon"
+                    android:text="asdasd" />
+
+                <TextView
+                    android:id="@+id/tvPredicion"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/tvMoon"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Tomorrow is forecast to be WARMER than today."
+                    android:textSize="18dp" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

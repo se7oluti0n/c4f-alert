@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_card"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Kinh nghiệm chống bão"
+            android:textColor="#d2047d"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_card"
+            android:padding="5dp"
+            android:text="Trước khi bão đến"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Theo dõi sát thông tin khí tượng thủy văn về hướng bão và tọa độ bão đang vào địa phương mình là điều tối quan trọng.
+- Chuẩn bị rào chống che chắn cửa kính, cửa sắt kéo (đều có thể bị tàn phá cho dù nhà không bị sập). Lấy bao tải cát 20kg chận lên mái tôn (cách nhau 0,5m/bao) trên các đòn tay và nhất là rìa mái dọc và ngang của mái tôn, nếu cần thì dùng dây cáp choàng qua mái tôn và neo cọc xuống đất, cáp chằng cách nhau 2m có 1 sợi.
+- Tích trữ nước ngọt càng nhiều càng tốt, nhà nào có bồn inox trên mái phải cho nước vào đầy bồn, chuẩn bị thực phẩm và đèn cầy, đèn dầu vì trước và sau bão sẽ bị mất điện, lâu hồi phục. Chuẩn bị thuốc men đầy đủ vì trước và sau bão có mưa gây lụt và nước ô nhiễm gây dịch bệnh.
+            " />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Theo dõi sát thông tin khí tượng thủy văn về hướng bão và tọa độ bão đang vào địa phương mình là điều tối quan trọng.
+- Chuẩn bị rào chống che chắn cửa kính, cửa sắt kéo (đều có thể bị tàn phá cho dù nhà không bị sập). Lấy bao tải cát 20kg chận lên mái tôn (cách nhau 0,5m/bao) trên các đòn tay và nhất là rìa mái dọc và ngang của mái tôn, nếu cần thì dùng dây cáp choàng qua mái tôn và neo cọc xuống đất, cáp chằng cách nhau 2m có 1 sợi.
+- Tích trữ nước ngọt càng nhiều càng tốt, nhà nào có bồn inox trên mái phải cho nước vào đầy bồn, chuẩn bị thực phẩm và đèn cầy, đèn dầu vì trước và sau bão sẽ bị mất điện, lâu hồi phục. Chuẩn bị thuốc men đầy đủ vì trước và sau bão có mưa gây lụt và nước ô nhiễm gây dịch bệnh.
+            " />
+
+        <ImageView
+            android:id="@+id/ivContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/n1" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Đối với nhà mái tôn, fibro xi măng:" />
+
+        <ImageView
+            android:id="@+id/ivContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/n2" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Chống tốc mái tôn, fibro xi măng bằng bao cát:" />
+
+        <ImageView
+            android:id="@+id/ivContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/n3" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Đối với nhà mái ngói:" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_card"
+            android:padding="5dp"
+            android:text="Trong bão"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Chọn chỗ an toàn trú thân; không ra ngoài để tránh bị cây đè, gió quật ngã hay tôn bay chém vào người.
+- Khi tâm bão đến thì trời bỗng lặng, nhưng chốc lát gió lại nổi lên cuồng phong và đổi hướng sẽ gây thiệt hại nghiêm trọng hơn, vì thế sau vài giờ bão đi qua mới nên rời chỗ trú ẩn để khắc phục hậu quả.
+" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_card"
+            android:padding="5dp"
+            android:text="Sau bão"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Ăn chín uống chín, cẩn thận khi ăn rau sống.
+- Nhiều bà con xem thường khi trước lúc bão đến nửa ngày hay 1 ngày trời quang mây tạnh nên càng khinh thường, vì vậy khi bão đến không trở tay kịp.
+" />
+    </LinearLayout>
+
+</ScrollView>

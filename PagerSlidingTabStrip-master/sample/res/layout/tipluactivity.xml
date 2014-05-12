@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_card"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Cách đối phó với lũ"
+            android:textColor="#ffa500"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_card"
+            android:padding="5dp"
+            android:text="Chuẩn bị đối phó với lũ lụt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Theo dõi tình hình thời tiết
+Cất giữ giấy tờ, tài liệu quan trọng vào hộp và để trên cao và an toàn
+Chuẩn bị những dụng cụ đối phó với bão cần thiết
+Bộ đồ sơ cứu và các loại thuốc cần thiết. 
+Thực phẩm đóng hộp và có thể mở
+ Ít nhất ba lít nước mỗi người 
+Quần áo bảo hộ, áo mưa và giường ngủ hoặc ngủ túi 
+Pin đài phát thanh, đèn pin và pin dự phòng.
+Đồ dùng đặc biệt cho trẻ sơ sinh, người già, hoặc các thành viên gia đình người khuyết tật, chẳng hạn như tã lót, đồ chơi,... 
+Tài liệu hướng dẫn làm thế nào để tắt nguồn điện, ga và nước 
+Xác định nơi bạn có thể đến nếu phải đi sơ tán
+Chọn một số nơi, chẳng hạn như nhà của một người bạn trong một thị trấn khác, một nhà trọ, hoặc một nơi trú ẩn nào đó. Hãy chắc chắn rằng tất cả mọi người trong gia đình đều biết nơi đó ở đâu và làm thế nào để đến.
+Giảm thiểu những tổn thất do lũ 
+Để lên cao những đồ điện, bộ điều khiển, bình ga... ở những nơi trong nhà mà lũ không thể dâng tới Di chuyển những vật có giá trị đến nơi cao hơn trong nhà của bạn.
+Chú ý những khu vực cảnh báo có lũ
+Trong suốt quá trình khi lũ đến, phải luôn luôn cập nhật tin tức trên đài, tivi để nhanh chóng biết được nếu phải sơ tán
+" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_card"
+            android:padding="5dp"
+            android:text="Cách đối phó trong cơn lũ"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sơ tán ngay khi có yêu cầu
+Di chuyển đến những nơi cao hơn ao hồ, sông suối. Hạn chế lái xe, đề phòng bị lũ cuốn. Xem thêm cách thoát khỏi xe khi bị chìm xuống nước
+Không đi bộ qua những nơi nước đã dâng cao, xem cột mốc hoặc dùng gậy để kiểm tra mực nước trước khi đi vào vùng ngập.
+Nếu xe của bạn bọ nước tràn vào,hãy ra ngay khỏi xe và đến nơi cao hơn
+" />
+    </LinearLayout>
+
+</ScrollView>
